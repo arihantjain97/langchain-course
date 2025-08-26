@@ -1,0 +1,107 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+log/
+
+# Local settings
+*.local
+*.envrc
+.DS_Store
+
+# -------------------------
+# LangChain / LLM Projects
+# -------------------------
+
+# LangChain cache
+.lc_cache/
+langchain.db
+
+# Vector stores (local FAISS/Chroma, etc.)
+chroma/
+chroma_db/
+faiss_index/
+*.faiss
+*.pkl
+
+# LangSmith / tracing artifacts
+langsmith_traces/
+.traces/
+
+# Temporary project data
+tmp/
+data/cache/
+outputs/
+
+# -------------------------
+# Other
+# -------------------------
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode settings
+*.code-workspace
